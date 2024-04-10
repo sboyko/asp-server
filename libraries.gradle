@@ -11,13 +11,13 @@
 ext {
 
 	// https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj
-    asciidoctorj_version = "2.5.3"
+    asciidoctorj_version = "2.5.12"
     
     // https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-pdf
-    asciidoctorj_pdf_version = "1.6.2"
+    asciidoctorj_pdf_version = "2.3.15"
     
     // https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-pdf
-    asciidoctorj_diagram_version = "2.2.1"
+    asciidoctorj_diagram_version = "2.3.0"
 
 	library = [
 		/* testing */		
@@ -25,8 +25,8 @@ ext {
 		mockito_all:					"org.mockito:mockito-all:1.10.19",
 		
 		/* logging */
-		slf4j_api:						"org.slf4j:slf4j-api:1.7.10",
-		slf4j_jdk:						"org.slf4j:slf4j-jdk14:1.7.10",
+		slf4j_api:						"org.slf4j:slf4j-api:2.0.12",
+		slf4j_jdk:						"org.slf4j:slf4j-jdk14:2.0.12",
 		
 		asciidoctorj_api:               "org.asciidoctor:asciidoctorj-api:${asciidoctorj_version}",
 		
