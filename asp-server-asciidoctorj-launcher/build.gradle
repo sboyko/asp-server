@@ -17,6 +17,7 @@ task buildDist(type: Jar) {
     with jar
 }
 
+/*
 publishing {
     publications {
         bintrayDistPublication(MavenPublication) {
@@ -28,6 +29,7 @@ publishing {
         }
     }
 }
+*/
 /**
  * Define artifacts
  */

@@ -35,8 +35,8 @@ allprojects{
 /* - Include other gradle scripts - */
 /* -------------------------------- */
 apply from: "${rootProject.projectDir}/gradle/build-java.gradle"
-apply from: "${rootProject.projectDir}/gradle/build-maven.gradle"
-apply from: "${rootProject.projectDir}/gradle/build-eclipse.gradle"
-apply from: "${rootProject.projectDir}/gradle/build-report.gradle"
+//apply from: "${rootProject.projectDir}/gradle/build-maven.gradle"
+//apply from: "${rootProject.projectDir}/gradle/build-eclipse.gradle"
+//apply from: "${rootProject.projectDir}/gradle/build-report.gradle"
 
 

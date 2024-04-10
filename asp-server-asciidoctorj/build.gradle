@@ -27,6 +27,8 @@ jar {
 
 task buildDist(type: Jar) {
 
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
     group = 'ASP'
     description = 'build distribution'
     classifier = 'dist'
@@ -43,6 +45,7 @@ task buildDist(type: Jar) {
 }
 
 
+/*
 publishing {
     publications {
         bintrayDistPublication(MavenPublication) {
@@ -54,6 +57,7 @@ publishing {
         }
     }
 }
+*/
 
 /**
  * Define artifacts

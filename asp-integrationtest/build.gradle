@@ -27,6 +27,7 @@ task fullintegrationtest(type: Test) {
 
 }
 
+/*
 task copyIntegrationTestResults(type: Copy) {
         with{
             from "${project.projectDir}/build/test-results/integrationtest"
@@ -43,6 +44,7 @@ task copyIntegrationServerLogs(type: Copy) {
 }
 copyTestResults.dependsOn copyIntegrationTestResults
 copyTestResults.dependsOn copyIntegrationServerLogs
+*/
 
 
 task cleanLogFiles(type: Delete){

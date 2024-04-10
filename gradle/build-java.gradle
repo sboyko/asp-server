@@ -6,6 +6,17 @@
    Included from: "${rootProject.projectDir}/build.gradle"
    ============================================================================
  */
+
+allprojects{
+    /* define repositories*/
+    repositories {
+        /* add your local maven repo - so you can deploy there */
+        mavenLocal() 
+        /* add maven central */
+        mavenCentral()
+    }
+}
+
 subprojects {
     apply plugin: 'java'
     apply plugin: 'java-library'
